@@ -1,0 +1,18 @@
+
+Samples Colab:
+https://colab.research.google.com/drive/1u5TGQ3DlRoBY9CayWxPqP8ysdq629YKO#scrollTo=2FPnZOn-8nnd
+
+
+M5 Data
+https://drive.google.com/drive/folders/1QoWzm2MiDM-hiSznulE73ZV9IJuWPizX?usp=sharing
+
+
+
+Goal is to create feature functions for M5 datasets.
+
+
+
+
+
+
+

@@ -1,0 +1,467 @@
+/home/chakresh/PycharmProjects/dsa2/
+os.getcwd /home/chakresh/PycharmProjects/dsa2
+/home/chakresh/PycharmProjects/dsa2
+/home/chakresh/PycharmProjects/dsa2/
+/home/chakresh/PycharmProjects/dsa2/data/
+file where imported /home/chakresh/PycharmProjects/dsa2/online_shopping.py
+
+  ('#### Model Params Dynamic loading  ##########################################',) 
+
+  ('/home/chakresh/PycharmProjects',) 
+/home/chakresh/PycharmProjects/dsa2/
+default:  /home/chakresh/PycharmProjects/dsa2/online_shopping.py::online_lightgbm
+
+  ('#### Model Params Dynamic loading  ##########################################',) 
+
+  ('/home/chakresh/PycharmProjects',) 
+config_name online_lightgbm
+dir_data /home/chakresh/PycharmProjects/dsa2//data/
+
+  ({'model_pars': {'model_class': 'LGBMClassifier', 'model_pars': {'objective': 'binary', 'n_estimators': 10, 'learning_rate': 0.001, 'boosting_type': 'gbdt', 'early_stopping_rounds': 5}, 'post_process_fun': <function online_lightgbm.<locals>.post_process_fun at 0x7f0aa84c8280>, 'pre_process_pars': {'y_norm_fun': <function online_lightgbm.<locals>.pre_process_fun at 0x7f0aa847a9d0>, 'pipe_list': [{'uri': 'source/prepro.py::pd_coly', 'pars': {}, 'cols_family': 'coly', 'cols_out': 'coly', 'type': 'coly'}, {'uri': 'source/prepro.py::pd_colnum_bin', 'pars': {}, 'cols_family': 'colnum', 'cols_out': 'colnum_bin', 'type': ''}, {'uri': 'source/prepro.py::pd_colnum_binto_onehot', 'pars': {}, 'cols_family': 'colnum_bin', 'cols_out': 'colnum_onehot', 'type': ''}, {'uri': 'source/prepro.py::pd_colcat_bin', 'pars': {}, 'cols_family': 'colcat', 'cols_out': 'colcat_bin', 'type': ''}, {'uri': 'source/prepro.py::pd_colcat_to_onehot', 'pars': {}, 'cols_family': 'colcat_bin', 'cols_out': 'colcat_onehot', 'type': ''}, {'uri': 'source/prepro.py::pd_colcross', 'pars': {}, 'cols_family': 'colcross', 'cols_out': 'colcross_pair', 'type': 'cross'}, {'uri': '/home/chakresh/PycharmProjects/dsa2/online_shopping.py::pd_col_myfun', 'pars': {}, 'cols_family': 'colnum', 'cols_out': 'col_myfun', 'type': ''}]}}, 'compute_pars': {'metric_list': ['accuracy_score', 'average_precision_score']}, 'data_pars': {'n_sample': 3816, 'cols_input_type': {'coly': 'Revenue', 'colid': 'oid', 'colcat': ['Month', 'VisitorType', 'Weekend'], 'colnum': ['Administrative', 'Administrative_Duration', 'Informational', 'Informational_Duration', 'ProductRelated', 'ProductRelated_Duration', 'BounceRates', 'ExitRates', 'PageValues', 'SpecialDay', 'OperatingSystems', 'Browser', 'Region', 'TrafficType'], 'colcross': ['Administrative']}, 'cols_model_group': ['colnum_bin', 'colcat_bin', 'colcross_pair', 'col_myfun'], 'filter_pars': {'ymax': 2, 'ymin': -1}}, 'global_pars': {'config_path': '/home/chakresh/PycharmProjects/dsa2/online_shopping.py', 'config_name': 'online_lightgbm', 'path_data_preprocess': '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/train/', 'path_data_train': '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/train/', 'path_data_test': '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/test/', 'path_train_output': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/', 'path_train_model': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/model/', 'path_features_store': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/features_store/', 'path_pipeline': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/pipeline/', 'path_pred_data': '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/test/', 'path_pred_pipeline': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/pipeline/', 'path_pred_model': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/model/', 'path_pred_output': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/pred_online_lightgbm/', 'n_sample': 3816}},) 
+/home/chakresh/PycharmProjects/dsa2/
+os.getcwd /home/chakresh/PycharmProjects/dsa2
+
+  #### Model Params Dynamic loading  ############################################### 
+
+  ('/home/chakresh/PycharmProjects',) 
+config_name online_lightgbm
+dir_data /home/chakresh/PycharmProjects/dsa2//data/
+
+  {'model_pars': {'model_class': 'LGBMClassifier', 'model_pars': {'objective': 'binary', 'n_estimators': 10, 'learning_rate': 0.001, 'boosting_type': 'gbdt', 'early_stopping_rounds': 5}, 'post_process_fun': <function online_lightgbm.<locals>.post_process_fun at 0x7f0aa847adc0>, 'pre_process_pars': {'y_norm_fun': <function online_lightgbm.<locals>.pre_process_fun at 0x7f0aa83d8700>, 'pipe_list': [{'uri': 'source/prepro.py::pd_coly', 'pars': {}, 'cols_family': 'coly', 'cols_out': 'coly', 'type': 'coly'}, {'uri': 'source/prepro.py::pd_colnum_bin', 'pars': {}, 'cols_family': 'colnum', 'cols_out': 'colnum_bin', 'type': ''}, {'uri': 'source/prepro.py::pd_colnum_binto_onehot', 'pars': {}, 'cols_family': 'colnum_bin', 'cols_out': 'colnum_onehot', 'type': ''}, {'uri': 'source/prepro.py::pd_colcat_bin', 'pars': {}, 'cols_family': 'colcat', 'cols_out': 'colcat_bin', 'type': ''}, {'uri': 'source/prepro.py::pd_colcat_to_onehot', 'pars': {}, 'cols_family': 'colcat_bin', 'cols_out': 'colcat_onehot', 'type': ''}, {'uri': 'source/prepro.py::pd_colcross', 'pars': {}, 'cols_family': 'colcross', 'cols_out': 'colcross_pair', 'type': 'cross'}, {'uri': '/home/chakresh/PycharmProjects/dsa2/online_shopping.py::pd_col_myfun', 'pars': {}, 'cols_family': 'colnum', 'cols_out': 'col_myfun', 'type': ''}]}}, 'compute_pars': {'metric_list': ['accuracy_score', 'average_precision_score']}, 'data_pars': {'n_sample': 3816, 'cols_input_type': {'coly': 'Revenue', 'colid': 'oid', 'colcat': ['Month', 'VisitorType', 'Weekend'], 'colnum': ['Administrative', 'Administrative_Duration', 'Informational', 'Informational_Duration', 'ProductRelated', 'ProductRelated_Duration', 'BounceRates', 'ExitRates', 'PageValues', 'SpecialDay', 'OperatingSystems', 'Browser', 'Region', 'TrafficType'], 'colcross': ['Administrative']}, 'cols_model_group': ['colnum_bin', 'colcat_bin', 'colcross_pair', 'col_myfun'], 'filter_pars': {'ymax': 2, 'ymin': -1}}, 'global_pars': {'config_path': '/home/chakresh/PycharmProjects/dsa2/online_shopping.py', 'config_name': 'online_lightgbm', 'path_data_preprocess': '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/train/', 'path_data_train': '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/train/', 'path_data_test': '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/test/', 'path_train_output': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/', 'path_train_model': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/model/', 'path_features_store': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/features_store/', 'path_pipeline': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/pipeline/', 'path_pred_data': '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/test/', 'path_pred_pipeline': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/pipeline/', 'path_pred_model': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/model/', 'path_pred_output': '/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/pred_online_lightgbm/', 'n_sample': 3816}} 
+
+  /home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/test/ /home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/model/ /home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/pred_online_lightgbm/ 
+
+  ('loading', 'oid', '/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/test/') 
+
+  ('###### Load dfX target values #####################################',) 
+['/home/chakresh/PycharmProjects/dsa2//data//input/online_shopping/test/features.parquet']
+
+  ('dfX_raw',                             9852   ...        12315
+Month                         Nov  ...          Nov
+VisitorType     Returning_Visitor  ...  New_Visitor
+Weekend                     False  ...         True
+Administrative                  0  ...            0
+
+[4 rows x 2464 columns]) 
+
+  ('###### Load dfy target values ###################################',) 
+
+  ('dfy not loaded', None, TypeError('expected str, bytes or os.PathLike object, not NoneType')) 
+/home/chakresh/PycharmProjects/dsa2/
+
+  ('########### Load column by column type ##################################',) 
+
+  ({'coly': 'Revenue', 'colid': 'oid', 'colcat': ['Month', 'VisitorType', 'Weekend'], 'colnum': ['Administrative', 'Administrative_Duration', 'Informational', 'Informational_Duration', 'ProductRelated', 'ProductRelated_Duration', 'BounceRates', 'ExitRates', 'PageValues', 'SpecialDay', 'OperatingSystems', 'Browser', 'Region', 'TrafficType'], 'colcross': ['Administrative']},) 
+
+  ('###################', {'uri': 'source/prepro.py::pd_colnum_bin', 'pars': {}, 'cols_family': 'colnum', 'cols_out': 'colnum_bin', 'type': ''}, '#######################################################') 
+
+  ('/home/chakresh/PycharmProjects/dsa2',) 
+/home/chakresh/PycharmProjects/dsa2/
+      Administrative  Administrative_Duration  ...  Region  TrafficType
+oid                                            ...                     
+0                  0                      0.0  ...       9            2
+1                  0                      0.0  ...       6           11
+2                  2                     76.5  ...       1           10
+3                  1                    576.0  ...       4            1
+4                  0                      0.0  ...       7            2
+...              ...                      ...  ...     ...          ...
+2459               3                    145.0  ...       1            1
+2460               0                      0.0  ...       1            8
+2461               0                      0.0  ...       1           13
+2462               4                     75.0  ...       3           11
+2463               0                      0.0  ...       1            2
+
+[2464 rows x 14 columns] ['Administrative', 'Administrative_Duration', 'Informational', 'Informational_Duration', 'ProductRelated', 'ProductRelated_Duration', 'BounceRates', 'ExitRates', 'PageValues', 'SpecialDay', 'OperatingSystems', 'Browser', 'Region', 'TrafficType']
+
+  (OrderedDict([('Administrative', [-0.0001, 2.4, 4.8, 7.199999999999999, 9.6, 12.0, 14.399999999999999, 16.8, 19.2, 21.599999999999998, 24.0]), ('Administrative_Duration', [-1.0001, 203.823486328125, 408.64697265625, 613.470458984375, 818.2939453125, 1023.117431640625, 1227.94091796875, 1432.764404296875, 1637.587890625, 1842.411376953125, 2047.23486328125]), ('Informational', [-0.0001, 1.6, 3.2, 4.800000000000001, 6.4, 8.0, 9.600000000000001, 11.200000000000001, 12.8, 14.4, 16.0]), ('Informational_Duration', [-1.0001, 177.01666259765625, 355.0333251953125, 533.0499877929688, 711.066650390625, 889.0833129882812, 1067.0999755859375, 1245.1166381835938, 1423.13330078125, 1601.1499633789062, 1779.1666259765625]), ('ProductRelated', [-0.0001, 32.8, 65.6, 98.39999999999999, 131.2, 164.0, 196.79999999999998, 229.59999999999997, 262.4, 295.2, 328.0]), ('ProductRelated_Duration', [-1.0001, 1314.96669921875, 2630.9333984375, 3946.9000976562497, 5262.866796875, 6578.83349609375, 7894.800195312499, 9210.766894531249, 10526.73359375, 11842.70029296875, 13158.6669921875]), ('BounceRates', [-0.0001, 0.020000000298023225, 0.04000000059604645, 0.06000000089406968, 0.0800000011920929, 0.10000000149011612, 0.12000000178813935, 0.14000000208616256, 0.1600000023841858, 0.18000000268220903, 0.20000000298023224]), ('ExitRates', [7.559299885760992e-05, 0.020158033768530002, 0.040140474538202395, 0.06012291530787479, 0.08010535607754718, 0.10008779684721958, 0.12007023761689196, 0.14005267838656435, 0.16003511915623675, 0.18001755992590915, 0.20000000069558155]), ('PageValues', [-0.0001, 26.149127197265624, 52.29825439453125, 78.44738159179687, 104.5965087890625, 130.74563598632812, 156.89476318359374, 183.04389038085938, 209.193017578125, 235.3421447753906, 261.49127197265625]), ('SpecialDay', [-0.0001, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0]), ('OperatingSystems', [0.9999, 1.7, 2.4, 3.0999999999999996, 3.8, 4.5, 5.199999999999999, 5.8999999999999995, 6.6, 7.3, 8.0]), ('Browser', [0.9999, 2.1, 3.2, 4.300000000000001, 5.4, 6.5, 7.6000000000000005, 8.700000000000001, 9.8, 10.9, 12.0]), ('Region', [0.9999, 1.8, 2.6, 3.4000000000000004, 4.2, 5.0, 5.800000000000001, 6.6000000000000005, 7.4, 8.2, 9.0]), ('TrafficType', [0.9999, 2.9, 4.8, 6.699999999999999, 8.6, 10.5, 12.399999999999999, 14.299999999999999, 16.2, 18.099999999999998, 20.0])]),) 
+
+  ('### colnum Map numerics to Category bin  ###########################################',) 
+Administrative
+                   Administrative                       
+                              max   min       mean  size
+Administrative_bin                                      
+-1                           26.0  26.0  26.000000     1
+ 0                            2.0   0.0   0.395405  1654
+ 1                            4.0   3.0   3.440397   302
+ 2                            7.0   5.0   5.875000   272
+ 3                            9.0   8.0   8.504425   113
+ 4                           12.0  10.0  10.962500    80
+ 5                           14.0  13.0  13.578947    19
+ 6                           16.0  15.0  15.538462    13
+ 7                           19.0  17.0  17.750000     8
+ 8                           21.0  21.0  21.000000     1
+ 9                           22.0  22.0  22.000000     1
+Administrative_Duration
+                            Administrative_Duration  ...      
+                                                max  ...  size
+Administrative_Duration_bin                          ...      
+-1                                      2137.112793  ...     1
+ 0                                       203.416672  ...  2168
+ 1                                       406.000000  ...   205
+ 2                                       598.872742  ...    44
+ 3                                       795.208313  ...    15
+ 4                                      1005.608337  ...    15
+ 5                                      1153.682251  ...     7
+ 6                                      1294.900024  ...     3
+ 7                                      1561.717529  ...     5
+ 9                                      1922.000000  ...     1
+
+[10 rows x 4 columns]
+Informational
+                  Informational                       
+                            max   min       mean  size
+Informational_bin                                     
+0                           1.0   0.0   0.091743  2071
+1                           3.0   2.0   2.374046   262
+2                           4.0   4.0   4.000000    60
+3                           6.0   5.0   5.461538    52
+4                           8.0   7.0   7.384615    13
+5                           9.0   9.0   9.000000     2
+6                          10.0  10.0  10.000000     3
+7                          12.0  12.0  12.000000     1
+Informational_Duration
+                           Informational_Duration  ...      
+                                              max  ...  size
+Informational_Duration_bin                         ...      
+-1                                    2256.916748  ...     2
+ 0                                     176.500000  ...  2295
+ 1                                     349.000000  ...    80
+ 2                                     523.750000  ...    34
+ 3                                     704.750000  ...    20
+ 4                                     886.500000  ...    12
+ 5                                    1060.750000  ...     8
+ 6                                    1231.000000  ...     4
+ 7                                    1415.000000  ...     3
+ 8                                    1530.000000  ...     4
+ 9                                    1767.666626  ...     2
+
+[11 rows x 4 columns]
+ProductRelated
+                   ProductRelated                         
+                              max    min        mean  size
+ProductRelated_bin                                        
+-1                          534.0  330.0  380.866669    15
+ 0                           32.0    0.0   12.703346  1554
+ 1                           65.0   33.0   46.171738   460
+ 2                           98.0   66.0   80.171875   192
+ 3                          131.0   99.0  113.732140   112
+ 4                          164.0  132.0  145.224136    58
+ 5                          195.0  166.0  180.296295    27
+ 6                          227.0  197.0  213.833328    18
+ 7                          261.0  231.0  244.307693    13
+ 8                          290.0  264.0  276.500000    10
+ 9                          326.0  304.0  316.200012     5
+ProductRelated_Duration
+                            ProductRelated_Duration  ...      
+                                                max  ...  size
+ProductRelated_Duration_bin                          ...      
+-1                                     18504.126953  ...    10
+ 0                                      1314.083374  ...  1606
+ 1                                      2628.000000  ...   412
+ 2                                      3944.385010  ...   198
+ 3                                      5256.472168  ...   109
+ 4                                      6560.007324  ...    42
+ 5                                      7793.158691  ...    29
+ 6                                      9126.982422  ...    27
+ 7                                     10497.154297  ...    12
+ 8                                     11431.000977  ...    10
+ 9                                     12959.915039  ...     9
+
+[11 rows x 4 columns]
+BounceRates
+                BounceRates                          
+                        max       min      mean  size
+BounceRates_bin                                      
+0                  0.020000  0.000000  0.004116  2018
+1                  0.040000  0.020290  0.029143   204
+2                  0.060000  0.041667  0.050803    44
+3                  0.080000  0.063636  0.068237    34
+4                  0.100000  0.082143  0.094222    24
+5                  0.120000  0.114286  0.118095     3
+6                  0.140000  0.121429  0.130714     2
+7                  0.150000  0.150000  0.150000     2
+8                  0.166667  0.166667  0.166667     1
+9                  0.200000  0.200000  0.200000   132
+ExitRates
+              ExitRates                         
+                    max       min      mean size
+ExitRates_bin                                   
+-1             0.200000  0.200000  0.200000  134
+ 0             0.020149  0.000468  0.012523  990
+ 1             0.040000  0.020175  0.028598  843
+ 2             0.060000  0.040159  0.048779  237
+ 3             0.080000  0.060256  0.068874  123
+ 4             0.100000  0.080556  0.095191   91
+ 5             0.120000  0.104242  0.112097   12
+ 6             0.140000  0.120833  0.131888   19
+ 7             0.160000  0.142857  0.148946   10
+ 8             0.180000  0.166667  0.170286    5
+PageValues
+                PageValues                              
+                       max         min        mean  size
+PageValues_bin                                          
+-1              287.953796  270.784698  279.369263     2
+ 0               26.099955    0.000000    1.611991  2259
+ 1               52.034634   26.259481   37.735100   112
+ 2               78.121651   52.384205   62.685402    54
+ 3              103.140289   78.811722   88.744247    21
+ 4              128.468689  105.260971  116.282608     8
+ 5              151.565048  133.281372  140.781113     5
+ 6              177.528824  177.528824  177.528824     1
+ 8              226.677704  214.306656  220.492188     2
+SpecialDay
+               SpecialDay                
+                      max  min mean  size
+SpecialDay_bin                           
+0                     0.0  0.0  0.0  2464
+OperatingSystems
+                     OperatingSystems                
+                                  max  min mean  size
+OperatingSystems_bin                                 
+0                                 1.0  1.0  1.0   542
+1                                 2.0  2.0  2.0  1235
+2                                 3.0  3.0  3.0   528
+4                                 4.0  4.0  4.0   104
+5                                 5.0  5.0  5.0     2
+7                                 6.0  6.0  6.0     4
+8                                 7.0  7.0  7.0     1
+9                                 8.0  8.0  8.0    48
+Browser
+            Browser                       
+                max   min       mean  size
+Browser_bin                               
+-1             13.0  13.0  13.000000    39
+ 0              2.0   1.0   1.764595  2124
+ 1              3.0   3.0   3.000000    19
+ 2              4.0   4.0   4.000000   106
+ 3              5.0   5.0   5.000000    75
+ 4              6.0   6.0   6.000000    20
+ 5              7.0   7.0   7.000000     8
+ 6              8.0   8.0   8.000000    36
+ 8             10.0  10.0  10.000000    31
+ 9             12.0  11.0  11.666667     6
+Region
+           Region                
+              max  min mean  size
+Region_bin                       
+0             1.0  1.0  1.0  1037
+1             2.0  2.0  2.0   174
+2             3.0  3.0  3.0   482
+3             4.0  4.0  4.0   236
+4             5.0  5.0  5.0    52
+6             6.0  6.0  6.0   126
+7             7.0  7.0  7.0   146
+8             8.0  8.0  8.0    75
+9             9.0  9.0  9.0   136
+TrafficType
+                TrafficType                       
+                        max   min       mean  size
+TrafficType_bin                                   
+0                       2.0   1.0   1.695883  1506
+1                       3.0   3.0   3.000000   282
+2                       6.0   6.0   6.000000    61
+3                       8.0   7.0   7.934524   168
+4                      10.0  10.0  10.000000   174
+5                      11.0  11.0  11.000000    78
+6                      13.0  13.0  13.000000   125
+7                      15.0  15.0  15.000000     6
+9                      20.0  20.0  20.000000    64
+
+  (OrderedDict([('Administrative', [-0.0001, 2.4, 4.8, 7.199999999999999, 9.6, 12.0, 14.399999999999999, 16.8, 19.2, 21.599999999999998, 24.0]), ('Administrative_Duration', [-1.0001, 203.823486328125, 408.64697265625, 613.470458984375, 818.2939453125, 1023.117431640625, 1227.94091796875, 1432.764404296875, 1637.587890625, 1842.411376953125, 2047.23486328125]), ('Informational', [-0.0001, 1.6, 3.2, 4.800000000000001, 6.4, 8.0, 9.600000000000001, 11.200000000000001, 12.8, 14.4, 16.0]), ('Informational_Duration', [-1.0001, 177.01666259765625, 355.0333251953125, 533.0499877929688, 711.066650390625, 889.0833129882812, 1067.0999755859375, 1245.1166381835938, 1423.13330078125, 1601.1499633789062, 1779.1666259765625]), ('ProductRelated', [-0.0001, 32.8, 65.6, 98.39999999999999, 131.2, 164.0, 196.79999999999998, 229.59999999999997, 262.4, 295.2, 328.0]), ('ProductRelated_Duration', [-1.0001, 1314.96669921875, 2630.9333984375, 3946.9000976562497, 5262.866796875, 6578.83349609375, 7894.800195312499, 9210.766894531249, 10526.73359375, 11842.70029296875, 13158.6669921875]), ('BounceRates', [-0.0001, 0.020000000298023225, 0.04000000059604645, 0.06000000089406968, 0.0800000011920929, 0.10000000149011612, 0.12000000178813935, 0.14000000208616256, 0.1600000023841858, 0.18000000268220903, 0.20000000298023224]), ('ExitRates', [7.559299885760992e-05, 0.020158033768530002, 0.040140474538202395, 0.06012291530787479, 0.08010535607754718, 0.10008779684721958, 0.12007023761689196, 0.14005267838656435, 0.16003511915623675, 0.18001755992590915, 0.20000000069558155]), ('PageValues', [-0.0001, 26.149127197265624, 52.29825439453125, 78.44738159179687, 104.5965087890625, 130.74563598632812, 156.89476318359374, 183.04389038085938, 209.193017578125, 235.3421447753906, 261.49127197265625]), ('SpecialDay', [-0.0001, 0.1, 0.2, 0.30000000000000004, 0.4, 0.5, 0.6000000000000001, 0.7000000000000001, 0.8, 0.9, 1.0]), ('OperatingSystems', [0.9999, 1.7, 2.4, 3.0999999999999996, 3.8, 4.5, 5.199999999999999, 5.8999999999999995, 6.6, 7.3, 8.0]), ('Browser', [0.9999, 2.1, 3.2, 4.300000000000001, 5.4, 6.5, 7.6000000000000005, 8.700000000000001, 9.8, 10.9, 12.0]), ('Region', [0.9999, 1.8, 2.6, 3.4000000000000004, 4.2, 5.0, 5.800000000000001, 6.6000000000000005, 7.4, 8.2, 9.0]), ('TrafficType', [0.9999, 2.9, 4.8, 6.699999999999999, 8.6, 10.5, 12.399999999999999, 14.299999999999999, 16.2, 18.099999999999998, 20.0])]),) 
+
+  (['Administrative_bin', 'Administrative_Duration_bin', 'Informational_bin', 'Informational_Duration_bin', 'ProductRelated_bin', 'ProductRelated_Duration_bin', 'BounceRates_bin', 'ExitRates_bin', 'PageValues_bin', 'SpecialDay_bin', 'OperatingSystems_bin', 'Browser_bin', 'Region_bin', 'TrafficType_bin'],) 
+
+  ('###################', {'uri': 'source/prepro.py::pd_colnum_binto_onehot', 'pars': {}, 'cols_family': 'colnum_bin', 'cols_out': 'colnum_onehot', 'type': ''}, '#######################################################') 
+
+  ('/home/chakresh/PycharmProjects/dsa2',) 
+      Administrative_bin  ...  TrafficType_bin
+oid                       ...                 
+0                      0  ...                0
+1                      0  ...                5
+2                      0  ...                4
+3                      0  ...                0
+4                      0  ...                0
+...                  ...  ...              ...
+2459                   1  ...                0
+2460                   0  ...                3
+2461                   0  ...                6
+2462                   1  ...                5
+2463                   0  ...                0
+
+[2464 rows x 14 columns] ['Administrative_bin', 'Administrative_Duration_bin', 'Informational_bin', 'Informational_Duration_bin', 'ProductRelated_bin', 'ProductRelated_Duration_bin', 'BounceRates_bin', 'ExitRates_bin', 'PageValues_bin', 'SpecialDay_bin', 'OperatingSystems_bin', 'Browser_bin', 'Region_bin', 'TrafficType_bin']
+
+  ('###### colnum bin to One Hot  #################################################',) 
+Administrative_bin 11 (2464, 14)
+Administrative_Duration_bin 10 (2464, 24)
+Informational_bin 8 (2464, 33)
+Informational_Duration_bin 11 (2464, 40)
+ProductRelated_bin 11 (2464, 50)
+ProductRelated_Duration_bin 11 (2464, 60)
+BounceRates_bin 10 (2464, 70)
+ExitRates_bin 10 (2464, 79)
+PageValues_bin 9 (2464, 88)
+SpecialDay_bin 1 (2464, 96)
+OperatingSystems_bin 8 (2464, 96)
+Browser_bin 10 (2464, 103)
+Region_bin 9 (2464, 112)
+TrafficType_bin 9 (2464, 120)
+Administrative_Duration_bin_8 added
+Informational_bin_8 added
+Informational_bin_9 added
+ExitRates_bin_9 added
+PageValues_bin_9 added
+SpecialDay_bin_0 added
+SpecialDay_bin_2 added
+SpecialDay_bin_4 added
+SpecialDay_bin_6 added
+SpecialDay_bin_8 added
+SpecialDay_bin_9 added
+Browser_bin_7 added
+TrafficType_bin_8 added
+
+  (['Administrative_bin_0', 'Administrative_bin_1', 'Administrative_bin_2', 'Administrative_bin_3', 'Administrative_bin_4', 'Administrative_bin_5', 'Administrative_bin_6', 'Administrative_bin_7', 'Administrative_bin_9', 'Administrative_Duration_bin_0', 'Administrative_Duration_bin_1', 'Administrative_Duration_bin_2', 'Administrative_Duration_bin_3', 'Administrative_Duration_bin_4', 'Administrative_Duration_bin_5', 'Administrative_Duration_bin_6', 'Administrative_Duration_bin_7', 'Administrative_Duration_bin_8', 'Administrative_Duration_bin_9', 'Informational_bin_0', 'Informational_bin_1', 'Informational_bin_2', 'Informational_bin_3', 'Informational_bin_4', 'Informational_bin_5', 'Informational_bin_6', 'Informational_bin_7', 'Informational_bin_8', 'Informational_bin_9', 'Informational_Duration_bin_0', 'Informational_Duration_bin_1', 'Informational_Duration_bin_2', 'Informational_Duration_bin_3', 'Informational_Duration_bin_4', 'Informational_Duration_bin_5', 'Informational_Duration_bin_6', 'Informational_Duration_bin_7', 'Informational_Duration_bin_8', 'Informational_Duration_bin_9', 'ProductRelated_bin_0', 'ProductRelated_bin_1', 'ProductRelated_bin_2', 'ProductRelated_bin_3', 'ProductRelated_bin_4', 'ProductRelated_bin_5', 'ProductRelated_bin_6', 'ProductRelated_bin_7', 'ProductRelated_bin_8', 'ProductRelated_bin_9', 'ProductRelated_Duration_bin_0', 'ProductRelated_Duration_bin_1', 'ProductRelated_Duration_bin_2', 'ProductRelated_Duration_bin_3', 'ProductRelated_Duration_bin_4', 'ProductRelated_Duration_bin_5', 'ProductRelated_Duration_bin_6', 'ProductRelated_Duration_bin_7', 'ProductRelated_Duration_bin_8', 'ProductRelated_Duration_bin_9', 'BounceRates_bin_0', 'BounceRates_bin_1', 'BounceRates_bin_2', 'BounceRates_bin_3', 'BounceRates_bin_4', 'BounceRates_bin_5', 'BounceRates_bin_6', 'BounceRates_bin_7', 'BounceRates_bin_8', 'BounceRates_bin_9', 'ExitRates_bin_-1', 'ExitRates_bin_0', 'ExitRates_bin_1', 'ExitRates_bin_2', 'ExitRates_bin_3', 'ExitRates_bin_4', 'ExitRates_bin_5', 'ExitRates_bin_6', 'ExitRates_bin_7', 'ExitRates_bin_8', 'ExitRates_bin_9', 'PageValues_bin_0', 'PageValues_bin_1', 'PageValues_bin_2', 'PageValues_bin_3', 'PageValues_bin_4', 'PageValues_bin_5', 'PageValues_bin_6', 'PageValues_bin_8', 'PageValues_bin_9', 'SpecialDay_bin_0', 'SpecialDay_bin_2', 'SpecialDay_bin_4', 'SpecialDay_bin_6', 'SpecialDay_bin_8', 'SpecialDay_bin_9', 'OperatingSystems_bin_0', 'OperatingSystems_bin_1', 'OperatingSystems_bin_2', 'OperatingSystems_bin_4', 'OperatingSystems_bin_7', 'OperatingSystems_bin_8', 'OperatingSystems_bin_9', 'Browser_bin_0', 'Browser_bin_1', 'Browser_bin_2', 'Browser_bin_3', 'Browser_bin_4', 'Browser_bin_5', 'Browser_bin_6', 'Browser_bin_7', 'Browser_bin_8', 'Browser_bin_9', 'Region_bin_0', 'Region_bin_1', 'Region_bin_2', 'Region_bin_3', 'Region_bin_4', 'Region_bin_6', 'Region_bin_7', 'Region_bin_8', 'Region_bin_9', 'TrafficType_bin_0', 'TrafficType_bin_1', 'TrafficType_bin_2', 'TrafficType_bin_3', 'TrafficType_bin_4', 'TrafficType_bin_5', 'TrafficType_bin_6', 'TrafficType_bin_7', 'TrafficType_bin_8', 'TrafficType_bin_9'],) 
+
+  ('###################', {'uri': 'source/prepro.py::pd_colcat_bin', 'pars': {}, 'cols_family': 'colcat', 'cols_out': 'colcat_bin', 'type': ''}, '#######################################################') 
+
+  ('/home/chakresh/PycharmProjects/dsa2',) 
+     Month        VisitorType  Weekend
+oid                                   
+0      Nov  Returning_Visitor    False
+1      Nov  Returning_Visitor    False
+2      Dec  Returning_Visitor    False
+3      Nov  Returning_Visitor    False
+4      Dec  Returning_Visitor    False
+...    ...                ...      ...
+2459   Dec  Returning_Visitor     True
+2460   Nov  Returning_Visitor     True
+2461   Nov  Returning_Visitor     True
+2462   Nov  Returning_Visitor    False
+2463   Nov        New_Visitor     True
+
+[2464 rows x 3 columns] ['Month', 'VisitorType', 'Weekend']
+
+  ('#### Colcat to integer encoding ',) 
+Month Month_int
+VisitorType VisitorType_int
+Weekend Weekend_int
+
+  (Month          category
+VisitorType    category
+Weekend            bool
+dtype: object, {'cat_map': {'Month': {'Aug': 0, 'Dec': 1, 'Feb': 2, 'Jul': 3, 'June': 4, 'Mar': 5, 'May': 6, 'Nov': 7, 'Oct': 8, 'Sep': 9}, 'VisitorType': {'New_Visitor': 0, 'Other': 1, 'Returning_Visitor': 2}, 'Weekend': {False: 0, True: 1}}, 'cat_map_inverse': {'Month': {0: 'Aug', 1: 'Dec', 2: 'Feb', 3: 'Jul', 4: 'June', 5: 'Mar', 6: 'May', 7: 'Nov', 8: 'Oct', 9: 'Sep'}, 'VisitorType': {0: 'New_Visitor', 1: 'Other', 2: 'Returning_Visitor'}, 'Weekend': {0: False, 1: True}}}) 
+
+  ('###################', {'uri': 'source/prepro.py::pd_colcat_to_onehot', 'pars': {}, 'cols_family': 'colcat_bin', 'cols_out': 'colcat_onehot', 'type': ''}, '#######################################################') 
+
+  ('/home/chakresh/PycharmProjects/dsa2',) 
+      Month_int  VisitorType_int  Weekend_int
+oid                                          
+0           NaN              0.0            0
+1           NaN              0.0            0
+2           NaN              0.0            0
+3           NaN              0.0            0
+4           NaN              0.0            0
+...         ...              ...          ...
+2459        NaN              0.0            1
+2460        NaN              0.0            1
+2461        NaN              0.0            1
+2462        NaN              0.0            0
+2463        NaN              1.0            1
+
+[2464 rows x 3 columns] ['Month_int', 'VisitorType_int', 'Weekend_int']
+
+  ('#### colcat to onehot',) 
+Month_int 1 (2464, 3)
+VisitorType_int 3 (2464, 3)
+Weekend_int 2 (2464, 4)
+Month_int_0 added
+Month_int_1 added
+Month_int_2 added
+
+  (     Month_int_0  Month_int_1  Month_int_2
+oid                                       
+0              0            0            0
+1              0            0            0
+2              0            0            0
+3              0            0            0
+4              0            0            0,) 
+ok ------------
+
+  ('###################', {'uri': 'source/prepro.py::pd_colcross', 'pars': {}, 'cols_family': 'colcross', 'cols_out': 'colcross_pair', 'type': 'cross'}, '#######################################################') 
+
+  ('/home/chakresh/PycharmProjects/dsa2',) 
+      Administrative
+oid                 
+0                  0
+1                  0
+2                  2
+3                  1
+4                  0
+...              ...
+2459               3
+2460               0
+2461               0
+2462               4
+2463               0
+
+[2464 rows x 1 columns] ['Administrative']
+
+  ('#####  Cross Features From OneHot Features   ######################################',) 
+
+  (oid                                                 0  1
+Administrative_bin_0-Administrative_Duration_bin_0  1  1
+Administrative_bin_1-Administrative_Duration_bin_0  0  0
+Administrative_bin_2-Administrative_Duration_bin_0  0  0
+Administrative_bin_2-Administrative_Duration_bin_1  0  0
+Administrative_bin_3-Administrative_Duration_bin_0  0  0,) 
+
+  ('###################', {'uri': '/home/chakresh/PycharmProjects/dsa2/online_shopping.py::pd_col_myfun', 'pars': {}, 'cols_family': 'colnum', 'cols_out': 'col_myfun', 'type': ''}, '#######################################################') 
+
+  ('/home/chakresh/PycharmProjects',) 
+      Administrative  Administrative_Duration  ...  Region  TrafficType
+oid                                            ...                     
+0                  0                      0.0  ...       9            2
+1                  0                      0.0  ...       6           11
+2                  2                     76.5  ...       1           10
+3                  1                    576.0  ...       4            1
+4                  0                      0.0  ...       7            2
+...              ...                      ...  ...     ...          ...
+2459               3                    145.0  ...       1            1
+2460               0                      0.0  ...       1            8
+2461               0                      0.0  ...       1           13
+2462               4                     75.0  ...       3           11
+2463               0                      0.0  ...       1            2
+
+[2464 rows x 14 columns] ['Administrative', 'Administrative_Duration', 'Informational', 'Informational_Duration', 'ProductRelated', 'ProductRelated_Duration', 'BounceRates', 'ExitRates', 'PageValues', 'SpecialDay', 'OperatingSystems', 'Browser', 'Region', 'TrafficType']
+
+  ('######  Merge AlL int dfXy  #############################################################',) 
+cannot import pyod
+
+  <module 'models.model_sklearn' from '/home/chakresh/PycharmProjects/dsa2/source/models/model_sklearn.py'> /home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/model/ 
+
+  #### Load model  ############################################ 
+/home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/online_lightgbm/model//model/model.pkl
+
+  #### modelx
+ LGBMClassifier(early_stopping_rounds=5, learning_rate=0.001, n_estimators=10,
+               objective='binary') 
+
+  ### Prediction  ############################################ 
+
+  ############ Saving prediction  ################################################### 
+
+  (2464,) /home/chakresh/PycharmProjects/dsa2//data//output/online_shopping/pred_online_lightgbm/ 
+
+      Month        VisitorType  Weekend  ...  Region  TrafficType  Revenue_pred
+oid                                    ...                                   
+0     Nov  Returning_Visitor    False  ...       9            2           0.0
+1     Nov  Returning_Visitor    False  ...       6           11           0.0
+2     Dec  Returning_Visitor    False  ...       1           10           0.0
+3     Nov  Returning_Visitor    False  ...       4            1           0.0
+4     Dec  Returning_Visitor    False  ...       7            2           0.0
+5     Dec        New_Visitor    False  ...       4           10           0.0
+6     Dec  Returning_Visitor     True  ...       1            2           0.0
+7     Nov  Returning_Visitor     True  ...       3            2           0.0
+
+[8 rows x 18 columns] 
+
+  ###########  Export Specific ###################################################### 

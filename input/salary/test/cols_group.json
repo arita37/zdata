@@ -1,0 +1,10 @@
+{
+     "coly"   : "salary"
+    ,"colid"  : "jobId"
+    ,"colcat" : [ "companyId", "jobType", "degree", "major", "industry" ]
+    ,"colnum" : ["yearsExperience", "milesFromMetropolis"]    
+    ,"coltext" : []
+    , "coldate" : []
+    ,"colcross" : [ "jobType", "degree", "major", "industry", "yearsExperience", "milesFromMetropolis" ]
+    
+}

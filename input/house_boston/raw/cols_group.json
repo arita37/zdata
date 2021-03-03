@@ -1,0 +1,10 @@
+{
+     "coly"   : "Survived"
+    ,"colid"  : "colid"
+    ,"colcat" : [  "Sex", "Embarked" ]
+    ,"colnum" : [ 'CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS', 'RAD', 'TAX', 'PTRATIO', 'B', 'LSTAT']
+    ,"coltext" :  []
+    , "coldate" : []
+    ,"colcross" : [  ]
+    
+}

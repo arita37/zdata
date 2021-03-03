@@ -1,0 +1,9 @@
+{
+    "coly"   :   "satisfaction"
+   ,"colid"  :   "id"
+   ,"colcat" :   ["gender","customer_type","type_of_travel","class"]
+   ,"colnum" :   ["age", "flight_distance", "inflight_wifi_service", "time_convenient", "ease_of_online_booking","gate_location","food_and_drink","online_boarding","seat_comfort","inflight_entertainment","on_board_service","leg_room_service","baggage_handling","checkin_service","inflight_service","cleanliness","departure_delay"]
+   ,"coltext" :  []
+   ,"coldate" :  []
+   ,"colcross" : ["gender", "customer_type", "type_of_travel", "class", "age", "flight_distance", "inflight_wifi_service"]
+}

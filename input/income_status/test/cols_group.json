@@ -1,0 +1,11 @@
+
+
+{
+     "coly"   :   "status"
+    ,"colid"  :   "id"
+    ,"colcat" :   ["occupation","workclass","native-country","education-num","marital-status","relationship","race","sex"]
+    ,"colnum" :   ["age", "final_weight", "capital-gain", "capital-loss", "hours-per-week"]
+    ,"coltext" :  []
+    ,"coldate" :  []
+    ,"colcross" : ["occupation","workclass","native-country","education-num","marital-status","relationship","race","sex","age", "final_weight", "capital-gain", "capital-loss", "hours-per-week"]
+}

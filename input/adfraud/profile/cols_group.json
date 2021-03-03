@@ -1,0 +1,9 @@
+{"colnum": [], "colcat": [], "coltext": [], "coldate": [], "colall": ["ip", "app", "device", "os", "channel", "click_time", "attributed_time", "is_attributed"]}ip                  int64
+app                 int64
+device              int64
+os                  int64
+channel             int64
+click_time         object
+attributed_time    object
+is_attributed       int64
+dtype: object
